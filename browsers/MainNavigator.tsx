@@ -18,7 +18,7 @@ function MyStack() {
   }
 
   function MyDrawer() {
-    return <Drawer.Navigator initialRouteName="Score">
+    return <Drawer.Navigator initialRouteName="Game">
                 <Drawer.Screen name="Score" component={ScoreScreen} />
                 <Drawer.Screen name="Game" component={GameScreen} />
                 <Drawer.Screen name="Stack" component={MyStack} />
